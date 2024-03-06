@@ -1,0 +1,16 @@
+run local host 
+pip install -r requirements.txt
+uvicorn csv_app.main:app --reload  
+go to http://127.0.0.1:8000/docs#/
+
+run docker 
+docker build -t csv_test . 
+docker run -d --name csv_test_cont -p 80:80 csv_test
+go to http://127.0.0.1:/docs#/
+
+http://127.0.0.1/docs#/default/parse_file_parsefile__post  parce file and return its info 
+http://127.0.0.1/docs#/default/save_file_savefile__post  parce file and save info 
+
+http://127.0.0.1/docs#/default/filter_users_users__get get users info 
+Parameter file (default false) false to get json response, true to get csv file response
+
