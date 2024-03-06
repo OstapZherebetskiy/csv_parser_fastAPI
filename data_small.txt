@@ -1,0 +1,9 @@
+category,firstname,lastname,email,gender,birthDate
+toys,Maribel,Towne,dagmar75@gmail.com,female,1972-05-05
+electronics,Martina,Heller,dreinger@yahoo.com,female,1990-11-27
+handmade,Santina,Runte,murazik.coty@hotmail.com,male,1990-11-05
+handmade,Ora,Schinner,dwindler@schiller.com,female,2003-08-05
+health,Blake,Robel,korey.hagenes@yahoo.com,female,2001-07-09
+films,Jessyca,Ruecker,braulio.hodkiewicz@gmail.com,female,2003-12-27
+books,Kirstin,Grady,lemke.cyrus@labadie.com,female,1992-08-11
+clothes,Zoe,Hand,kianna34@hotmail.com,female,1984-03-15
